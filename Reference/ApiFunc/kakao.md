@@ -6,7 +6,7 @@
 - 클래스
 ## getPlacePage
 ```{.python}
-    def getPlacePage(str code, int y, int x, int rad, int page=1)
+def getPlacePage(str code, int y, int x, int rad, int page=1)
 ```
 (함수의 목적에 대한 간단한 설명)  
 
