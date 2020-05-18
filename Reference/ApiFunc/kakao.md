@@ -23,8 +23,8 @@ def getPlacePage(str code, int y, int x, int rad, int page=1)
 #### 반환형
 |이름|형식|자료형|명세|비고|
 |---|---|---|---|---|
-|cafe|변수|list[]|(url 변수에 대한 간단한 설명)||
-|dist|변수|list[ dictionary{ string:integer, string:integer }, ... ]|(url 변수에 대한 간단한 설명)||
+|cafe|변수|list[]|(cafe 변수에 대한 간단한 설명)||
+|dist|변수|list[ dictionary{ string:integer, string:integer }, ... ]|(dist 변수에 대한 간단한 설명)||
 
 <br />
 
