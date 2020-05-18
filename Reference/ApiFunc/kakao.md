@@ -4,19 +4,28 @@
     + [getPlacePage](#getplacepage)
     + [getPlace](#getplace)
 - 클래스
+
+<br />
+
 ## getPlacePage
 (함수의 목적에 대한 간단한 설명)  
 ```{.python}
 def getPlacePage(str code, int y, int x, int rad, int page=1)
+    if(rescode == 200): return (data['meta']['is_end'], cafe, dist)
+    else: return (True, cafe, dist)
 ```
+
 #### 매개변수
 |이름|자료형|명세|예시 입력|
 |---|---|---|---|
 |code|string|(code 변수에 대한 간단한 설명)|"음식점"|
   
-#### 지역변수
+#### 반환형
 |이름|형식|자료형|명세|비고|
 |---|---|---|---|---|
-|url|변수|string|(url 변수에 대한 간단한 설명)||
+|cafe|변수|list[]|(url 변수에 대한 간단한 설명)||
+|dist|변수|list[ dist{ string:integer, string:integer }, ... ]|(url 변수에 대한 간단한 설명)||
+
+<br />
 
 ## getPlace
