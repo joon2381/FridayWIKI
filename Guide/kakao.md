@@ -11,8 +11,8 @@
 (함수의 목적에 대한 간단한 설명)  
 ```{.python}
 def getPlacePage(str code, int y, int x, int rad, int page=1)
-    if(rescode == 200): return (data['meta']['is_end'], cafe, dist)
-    else: return (True, cafe, dist)
+    if(rescode == 200): return (bool data['meta']['is_end'], list cafe, list dist)
+    else: return (bool True, list cafe, list dist)
 ```
 
 #### 매개변수
