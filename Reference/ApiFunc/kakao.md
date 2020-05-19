@@ -18,7 +18,7 @@ def getPlacePage(str code, int y, int x, int rad, int page=1)
 #### 매개변수
 |이름|형식|자료형|명세|예시 입력|
 |---|---|---|---|---|
-|code|변수|string|(code 변수에 대한 간단한 설명)|"카페"|
+|code|변수|string|(code 변수에 대한 간단한 설명)|"음식점"|
   
 #### 반환형
 |이름|형식|자료형|명세|비고|
